@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidenav {
+    height: 100%; 
+    width: 250px; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color: black; 
+    overflow-x: hidden; 
+    padding-top: 100px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 50px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+h1{
+    color: white;
+    padding: 6px 8px 6px 16px;
+}
+
+.sidenav a:hover {
+    color: white;
+}
+
+img{
+    height: 500px;
+    width: 366px;
+    position: relative;
+    left: 250px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;   
+}
+
+img:hover{
+    cursor: pointer;
+    opacity: 80%;
+}
+
+#AboutMe{
+    text-align: center;
+    margin-right: 200px;
+}
+
+#me{
+    text-align: right;
+    margin-right: 150px;
+}
+
+#rectangle{
+  background-color: #F0ECE3;   
+}
+
+.form{
+    text-align: center;
+    margin-left: 350px;
+}
+
+#send{
+    background-color: #B4CFB0;
+}
+
+h2{
+    color: black;
+    font-style: italic;
+}
+
+p{
+    font-style: italic;
+    font-size: 120%;
+}
+
+button{
+    margin-top: 50px;
+    width: 250px;
+    background: black;
+    height: 40px;
+    cursor: pointer;
+    font-weight: 900;
+    color: white;
+}
+ button:hover{
+    background-color: #818181;
+}
+
+
+label{
+    font-size: 25px;
+}
+
+input::placeholder{
+    color: grey;
+}
+
+input{
+    width: 330px;
+    background-color: #ecf0f3;
+    height: 25px;
+}
+
+textarea{
+    width: 330px;
+    background-color: #ecf0f3;
+    height: 25px;
+}
